@@ -27,9 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![Alt text](../screenshots/2022-10-14-175303_1920x1080_scrot.png)
-![Alt text](../screenshots/2022-10-14-175308_1920x1080_scrot.png)
+![Alt text](./screenshots/2022-10-14-175303_1920x1080_scrot.png)
+![Alt text](./screenshots/2022-10-14-175308_1920x1080_scrot.png)
 
 
 ## My process
@@ -44,7 +43,6 @@ Users should be able to:
 ### What I learned
 
 nth-child and nth-of-type, writing-mode and text-orientation
-```html
 
 ### Continued development
 
