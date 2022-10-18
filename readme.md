@@ -29,7 +29,8 @@ Users should be able to:
 
 ![Alt text](./screenshots/2022-10-14-175303_1920x1080_scrot.png)
 ![Alt text](./screenshots/2022-10-14-175308_1920x1080_scrot.png)
-
+![Alt Text](./screenshots/2022-10-18-162633_1920x1080_scrot.png)
+![Alt Text](./screenshots/2022-10-18-162636_1920x1080_scrot.png)
 
 ## My process
 
@@ -46,7 +47,7 @@ nth-child and nth-of-type, writing-mode and text-orientation
 
 ### Continued development
 
-Finish the desktop design
+responsive design knowledge
 
 ### Useful resources
 
