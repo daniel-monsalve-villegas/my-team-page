@@ -7,59 +7,75 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-#text {
+#bigText {
 	font-family: Georgia, Times, serif;
-	font-size: 18px;
-	margin: 5em 1em 2em 1em;
 }
 
-main {
-	margin: 0 1em;
-}
-
-#paragraph h2 {
-	margin-bottom: 0.8em;
-}
-
-#paragraph p {
-	margin-bottom: 4em;
-}
-
-#images {
-	max-width: 100%;
-	font-size: 14px;
-	display: flex;
-	flex-flow: row wrap;
-}
-
-.imageFull {
-	height: 25vh;
-}
-
-.imageFull img{
-	width: 10em;
-}
-
-.imageFull:nth-of-type(2n) {
-	margin: 3em 2.2em;
-}
 
 .job {
 	font-family: serif;
 	font-size: 11px;
-	position: relative;
-	top: -20.5em;
-	left: 13em;
-	writing-mode: vertical-lr;
-	text-orientation: mixed;
+
 }
 
-.right {
-	top: -21em;
-}
 
 footer, footer a {
 	text-align: center;
 	color: gray;
 	margin-bottom: 1em;
+}
+
+@media (max-width: 375px) {
+	#text {
+		font-size: 18px;
+		margin: 5em 1em 2em 1em;
+	}
+
+	#paragraph {
+		margin-top: 1em;
+	}
+
+	#paragraph h2 {
+		margin-bottom: 0.8em;
+	}
+
+	#paragraph p {
+		margin-bottom: 4em;
+	}
+
+	main {
+		margin: 0 1em;
+	}
+
+	#images {
+		max-width: 100%;
+		font-size: 14px;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.imageFull {
+		height: 25vh;
+	}
+
+	.imageFull img{
+		width: 10em;
+	}
+
+	.imageFull:nth-of-type(2n) {
+		margin: 3em 2.2em;
+	}
+
+	.job {
+	position: relative;
+	top: -20.5em;
+	left: 13em;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	}
+
+	.right {
+		top: -21em;
+	}
+
 }
